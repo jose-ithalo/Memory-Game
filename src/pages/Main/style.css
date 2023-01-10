@@ -6,11 +6,17 @@
   justify-content: center;
 }
 
+.leftSide {
+  height: 100%;
+  width: 220px;
+}
+
 .sideBar {
   background: linear-gradient(180deg, #000000 0%, rgba(15, 13, 15, 0.65) 100%);
   height: 100%;
   width: 220px;
-  position: relative;
+  position: fixed;
+  left: 0px;
   text-align: center;
 }
 
@@ -50,10 +56,10 @@
   width: calc(100vw - 220px);
   display: flex;
   align-items: center;
+  gap: 30px;
   justify-content: center;
-  padding: 80px 87px 83px;
+  padding: 80px 90px;
   flex-wrap: wrap;
-  gap: 20px;
 }
 
 .imgCards {

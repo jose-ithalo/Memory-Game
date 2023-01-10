@@ -78,13 +78,15 @@ function Main() {
 
   return (
     <div className='container'>
-      <div className='sideBar'>
-        <img className='logo' src={logo} alt='Logo' />
-        <h2 className='title'>CUBOS PUZZLE</h2>
-        <button className='btn-reset' onClick={handleResetAll}>RESET</button>
+      <div className='leftSide'>
+        <div className='sideBar'>
+          <img className='logo' src={logo} alt='Logo' />
+          <h2 className='title'>CUBOS PUZZLE</h2>
+          <button className='btn-reset' onClick={handleResetAll}>RESET</button>
+        </div>
       </div>
-      <div className='cardsField'>
 
+      <div className='cardsField'>
         {listCards.length === 0 ? <img src={congrats} alt='congratulation' /> :
           listCards.map((card) => (
             <img
@@ -95,8 +97,8 @@ function Main() {
               alt='Card' />
           ))
         }
-
       </div>
+
     </div>
   );
 }
