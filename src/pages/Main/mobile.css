@@ -1,11 +1,11 @@
-@media (max-width: 675px) {
+@media (max-width: 602px) {
     .container {
         flex-direction: column;
     }
 
-    /* .cardsField {
-        width: auto;
-    } */
+    .cardsField {
+        width: 100vw;
+    }
 
     .leftSide {
         display: none;
@@ -30,7 +30,7 @@
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 995px) {
     .cardsField {
         padding: 20px 0px;
         gap: 20px;

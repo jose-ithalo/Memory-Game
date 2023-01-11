@@ -67,12 +67,12 @@
 
 .imgCards {
   width: 136px;
+  padding-bottom: 10px;
 }
 
 .imgCards:hover {
   cursor: pointer;
   transform: scale(1.1);
-
 }
 
 .underBar {
