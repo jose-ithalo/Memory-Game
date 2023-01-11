@@ -1,0 +1,23 @@
+@media (max-width: 860px) {
+
+    .btn-reset {
+        left: 10px;
+    }
+
+    .sideBar,
+    .leftSide {
+        width: 160px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .cardsField {
+        padding: 20px 0px;
+        gap: 20px;
+    }
+
+    .imgCards {
+        padding-bottom: 20px;
+    }
+
+}
