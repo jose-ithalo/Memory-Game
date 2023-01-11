@@ -1,4 +1,5 @@
 import './style.css';
+import './mobile.css';
 import Cards from '../../cards.js';
 import logo from '../../assets/Vector.svg';
 import cardBack from '../../assets/card-back.png';
