@@ -83,7 +83,7 @@ function Main() {
         <div className='sideBar'>
           <img className='logo' src={logo} alt='Logo' />
           <h2 className='title'>CUBOS PUZZLE</h2>
-          <button className='btn-reset' onClick={handleResetAll}>RESET</button>
+          <button className='btn-reset left-btn' onClick={handleResetAll}>RESET</button>
         </div>
       </div>
 
@@ -99,6 +99,16 @@ function Main() {
           ))
         }
       </div>
+
+      <footer>
+        <div className='underBar'>
+          <div className='underBar-firt'>
+            <img className='logo' src={logo} alt='Logo' />
+            <h2 className='title'>CUBOS PUZZLE</h2>
+          </div>
+          <button className='btn-reset' onClick={handleResetAll}>RESET</button>
+        </div>
+      </footer>
 
     </div>
   );
