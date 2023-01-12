@@ -88,7 +88,7 @@ function Main() {
       </div>
 
       <div className='cardsField'>
-        {listCards.length === 0 ? <img src={congrats} alt='congratulation' /> :
+        {listCards.length === 0 ? <img className='congrats' src={congrats} alt='congratulation' /> :
           listCards.map((card) => (
             <img
               key={card.id}

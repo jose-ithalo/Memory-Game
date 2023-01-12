@@ -22,6 +22,12 @@
     }
 }
 
+@media (max-width: 690px) {
+    .congrats {
+        width: 270px;
+    }
+}
+
 @media (max-width: 860px) {
 
     .btn-reset {
